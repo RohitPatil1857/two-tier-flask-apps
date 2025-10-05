@@ -5,6 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # install required packages for system
+#makesure
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y gcc default-libmysqlclient-dev pkg-config \
